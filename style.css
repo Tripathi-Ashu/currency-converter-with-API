@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding:0 ;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url("Eco-art-space-banner.png");
+  background-size: cover;
+}
+
+.container{
+  background-image: url("images\ \(2\).jpg");
+  background-size: cover;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 40vh;
+
+}
+
+form{
+  margin: 2rem 0 1rem 0;
+}
+form select , button, input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+
+form input {
+  border: 2px solid lightgray;
+  font-size: 1rem;
+  height: 3rem;
+  padding-left: 0.5rem;
+
+}
+.dropdown{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.dropdown i {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.select-container img {
+  max-width: 2rem;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  border-radius: 0.5rem;
+  border: 1px solid lightgray;
+}
+.select-container select {
+  font-size:  1rem;
+  width: auto;
+}
+
+.msg{
+  margin: 4rem 0 2rem 0;
+  font-style:initial;
+  color: rgb(227, 221, 221);
+  
+  font-size: 1rem;
+  justify-content: center;
+}
+form button{
+  height: 3rem;
+  background-color: #af4d98;
+  color: #fff;
+  font-size: 1.15rem;
+}
+
